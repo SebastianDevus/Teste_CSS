@@ -1,0 +1,33 @@
+h1 {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #ffffff;;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: #232323 ;
+    color: #c9c9c9;
+}
+
+#paragrafo-miudo {
+    font-size: small;
+    text-align: right;
+}
+
+strong {
+    font-weight: bold;
+    color: #ac8402;
+}
+
+.paragrafo-do-diabo {
+    color: magenta;
+    font-family: Comic Sans MS;
+    text-align: right;
+}
