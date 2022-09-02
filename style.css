@@ -1,18 +1,32 @@
-h1 {
-    color: #ffffff;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    text-align: center;
+:root {
+    --corDeFundo: #232323;
+    --corDeTitulos: #ffffff;
+    --corDeTextoNormal: #c9c9c9;
 }
 
-h2, h3, h4, h5, h6 {
-    color: #ffffff;;
-    font-family: 'Times New Roman', Times, serif;
+h1 {
+    color: var(--corDeTitulos);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3em;
+}
+
+h2, h3 {
+    color: var(--corDeTitulos);
     font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+}
+
+h4, h5, h6 {
+    color: var(--corDeTitulos);
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 body {
-    background-color: #232323 ;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--corDeFundo);
     color: #c9c9c9;
 }
 
@@ -28,6 +42,6 @@ strong {
 
 .paragrafo-do-SANES {
     color: magenta;
-    font-family: Comic Sans MS;
+    font-family: 'Comic Sans MS', sans-serif;
     text-align: right;
 }
